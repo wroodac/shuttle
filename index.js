@@ -6,15 +6,11 @@ import express from "express";
 
 const routes = [
 	["/", "index"],
-	["/math", "games"],
-	["/physics", "apps"],
 	["/settings", "settings"]
 ];
 
 const navItems = [
 	["/", "Home"],
-	["/math", "Games"],
-	["/physics", "Apps"],
 	["/settings", "Settings"]
 ];
 
